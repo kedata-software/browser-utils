@@ -10,6 +10,7 @@ export default defineConfig({
     environment: 'jsdom',
     include: ['src/**/*.test.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     reporters: ['default'],
+    setupFiles: ['./test/setup.ts'],
     // coverage: {
     //   reportsDirectory: '../../coverage/packages/browser',
     //   provider: 'v8',
