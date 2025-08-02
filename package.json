@@ -34,7 +34,8 @@
     "vitest": "^1.6.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
     "blob-polyfill": "^9.0.20240710",
