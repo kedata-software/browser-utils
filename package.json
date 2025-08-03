@@ -7,6 +7,10 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kedata-software/browser-utils"
+  },
   "scripts": {
     "test": "vitest",
     "build:pre": "rm -rf dist",
